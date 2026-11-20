@@ -5,7 +5,7 @@
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3><code>Programming</code></h3>
+<p><strong><code>Programming</code></strong></p>
 <p>
 <code>Python</code> &nbsp;
 <code>C#</code> &nbsp;
@@ -25,7 +25,7 @@
 </p>
 </td>
 <td width="50%" valign="top">
-<h3><code>Artificial Intelligence</code></h3>
+<p><strong><code>Artificial Intelligence</code></strong></p>
 <p>
 <code>Supervised ML</code> &nbsp;
 <code>Unsupervised ML</code> &nbsp;
@@ -48,14 +48,14 @@
 </tr>
 <tr>
 <td valign="top">
-<h3><code>Robotics &amp; Autonomous Systems</code></h3>
+<p><strong><code>Robotics &amp; Autonomous Systems</code></strong></p>
 <p>
 <code>Robotics</code> &nbsp;
 <code>Autonomous Systems</code>
 </p>
 </td>
 <td valign="top">
-<h3><code>Modeling &amp; Simulation</code></h3>
+<p><strong><code>Modeling &amp; Simulation</code></strong></p>
 <p>
 <code>Simulink</code> &nbsp;
 <code>Simscape</code> &nbsp;
@@ -69,7 +69,7 @@
 </tr>
 <tr>
 <td valign="top">
-<h3><code>Electrical Engineering</code></h3>
+<p><strong><code>Electrical Engineering</code></strong></p>
 <p>
 <code>Electronics</code> &nbsp;
 <code>Power Electronics</code> &nbsp;
@@ -81,7 +81,7 @@
 </p>
 </td>
 <td valign="top">
-<h3><code>Software Development &amp; Integration</code></h3>
+<p><strong><code>Software Development &amp; Integration</code></strong></p>
 <p>
 <code>Git</code> &nbsp;
 <code>Docker</code> &nbsp;
