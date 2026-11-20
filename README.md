@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <h4>A few things I work with...</h4>
+  <sub>A few things I work with...</sub>
 </p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="skills_dark.svg">
