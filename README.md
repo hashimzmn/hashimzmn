@@ -11,7 +11,7 @@
 </table>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="skills.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="skills_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="skills_light.svg">
   <img alt="Technical Skills" src="skills_light.svg" width="100%">
 </picture>
