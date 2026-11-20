@@ -21,3 +21,14 @@
 
 
 
+<p align="left">
+  <sub><sup>
+    L: Illustration by <a href="https://unsplash.com/@underthesky07">Anupa Paul</a> on
+    <a href="https://unsplash.com">Unsplash</a>
+    <br>
+    R: Image by <a href="https://unsplash.com/@alexshuperart">Alex Shuper</a> on
+    <a href="https://unsplash.com">Unsplash</a>
+  </sup></sub>
+</p>
+
+
