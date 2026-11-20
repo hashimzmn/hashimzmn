@@ -1,49 +1,41 @@
-## Technical Skills
-
 ```mermaid
-mindmap
-  root((Technical Skills))
-    Programming
-      Python
-        PyTorch / TensorFlow / Keras
-        NumPy / Pandas / SciPy
-        scikit-learn / OpenCV
-      C#
-      MATLAB
-      GDScript
-      NI LabVIEW
+flowchart TB
 
-    Artificial Intelligence
-      Machine Learning
-        Supervised Learning
-        Unsupervised Learning
-      Neural Networks
-        CNNs
-        RNNs / LSTMs
-        Transformers
-      Computer Vision
-      Generative AI
-        LLMs
-        Autoencoders / VAEs
-        GANs / WGANs
+    subgraph CORE["AI & COMPUTING"]
+        direction LR
+        A["Machine Learning<br/>Supervised / Unsupervised"]
+        B["Deep Learning<br/>CNN / RNN / LSTM / Transformers"]
+        C["Generative AI<br/>LLM / AE / VAE / GAN / WGAN"]
+        D["Computer Vision"]
+    end
 
-    Robotics & Autonomous Systems
+    subgraph PROGRAMMING["PROGRAMMING"]
+        direction LR
+        E["Python<br/>PyTorch / TensorFlow / Keras"]
+        F["Scientific Python<br/>NumPy / Pandas / SciPy / sklearn / OpenCV"]
+        G["C# / MATLAB / GDScript / LabVIEW"]
+    end
 
-    Software Development
-      Git
-      Docker
-      CI/CD
+    subgraph ENGINEERING["ENGINEERING"]
+        direction LR
+        H["Robotics & Autonomous Systems"]
+        I["Electronics / Power Electronics"]
+        J["Control Engineering / PCB Design"]
+    end
 
-    Electrical Engineering
-      Electronics
-      Power Electronics
-      PCB Design
-        Autodesk Fusion
-      Control Engineering
+    subgraph TOOLS["SOFTWARE & SIMULATION"]
+        direction LR
+        K["Git / Docker / CI/CD"]
+        L["Simulink / Simscape / COMSOL"]
+        M["Godot / Blender"]
+    end
 
-    Modeling & Simulation
-      Simulink / Simscape
-      COMSOL Multiphysics
-      Godot
-      Blender
+    CORE ~~~ PROGRAMMING
+    PROGRAMMING ~~~ ENGINEERING
+    ENGINEERING ~~~ TOOLS
+
+    style CORE fill:none,stroke:#888
+    style PROGRAMMING fill:none,stroke:#888
+    style ENGINEERING fill:none,stroke:#888
+    style TOOLS fill:none,stroke:#888
 ```
