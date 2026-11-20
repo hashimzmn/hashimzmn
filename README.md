@@ -49,9 +49,21 @@
 <tr>
 <td valign="top">
 <p><strong><code>Robotics &amp; Autonomous Systems</code></strong></p>
+<p><strong>Basics of Robotics</strong></p>
 <p>
-<code>Robotics</code> &nbsp;
-<code>Autonomous Systems</code>
+<code>Robot Kinematics</code> &nbsp;
+<code>Robot Dynamics</code> &nbsp;
+<code>Trajectory Planning</code> &nbsp;
+<code>Visual Servo Control</code> &nbsp;
+<code>Motion Planning</code>
+</p>
+<p><strong>Autonomous Vehicles</strong></p>
+<p>
+<code>Perception</code> &nbsp;
+<code>Sensor Fusion</code> &nbsp;
+<code>Localization</code> &nbsp;
+<code>Decision Making &amp; Planning</code> &nbsp;
+<code>Control</code>
 </p>
 </td>
 <td valign="top">
