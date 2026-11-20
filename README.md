@@ -12,9 +12,8 @@
 
 
 <p align="center">
-  <sub><b>A FEW THINGS I WORK WITH...</b></sub>
+  <sub><b>A few things I work with...</b></sub>
 </p>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="skills_updated.svg">
   <source media="(prefers-color-scheme: light)" srcset="skills_light.svg">
