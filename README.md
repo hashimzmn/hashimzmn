@@ -10,6 +10,8 @@
   </tr>
 </table>
 
+<h3>A few things I work with...</h3>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="skills_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="skills_light.svg">
