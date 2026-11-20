@@ -11,46 +11,158 @@
 </table>
 
 
-```mermaid
-flowchart LR
-    subgraph S["01 / SOFTWARE"]
-      direction TB
-      S1["Programming<br/>Python · C# · MATLAB<br/>GDScript · LabVIEW"]
-      S2["Python Ecosystem<br/>PyTorch · TensorFlow · Keras<br/>NumPy · Pandas · SciPy<br/>scikit-learn · OpenCV"]
-      S3["Development & Integration<br/>Git · Docker · CI/CD"]
-      S1 ~~~ S2 ~~~ S3
-    end
 
-    subgraph A["02 / ARTIFICIAL INTELLIGENCE"]
-      direction TB
-      A1["Machine Learning<br/>Supervised · Unsupervised"]
-      A2["Deep Learning<br/>CNNs · RNNs · LSTMs<br/>Transformers"]
-      A3["Generative AI<br/>LLMs · AEs · VAEs<br/>GANs · WGANs"]
-      A4["Computer Vision"]
-      A1 ~~~ A2 ~~~ A3 ~~~ A4
-    end
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    subgraph R["03 / ROBOTICS & AUTONOMY"]
-      direction TB
-      R1["Robotics<br/>Kinematics & Dynamics<br/>Trajectory Planning<br/>Visual Servo Control<br/>Motion Planning"]
-      R2["Autonomous Vehicles<br/>Perception · Sensor Fusion<br/>Localization<br/>Decision Making & Planning<br/>Control"]
-      R1 ~~~ R2
-    end
+<style>
+  :root {
+    color-scheme: dark;
+  }
 
-    subgraph E["04 / ENGINEERING & SIMULATION"]
-      direction TB
-      E1["Electrical Engineering<br/>Electronics · Power Electronics<br/>PCB Design · Control Engineering"]
-      E2["Modeling & Simulation<br/>Simulink · Simscape<br/>COMSOL Multiphysics<br/>Godot · Blender"]
-      E1 ~~~ E2
-    end
+  body {
+    margin: 0;
+    padding: 40px;
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont,
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+  }
 
-    S ~~~ A ~~~ R ~~~ E
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px;
+    max-width: 1200px;
+    margin: auto;
+  }
 
-    classDef skill fill:transparent,stroke:#808080,color:#888888,stroke-width:1px
-    class S1,S2,S3,A1,A2,A3,A4,R1,R2,E1,E2 skill
+  .column-title {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    color: #8b949e;
+    padding-top: 15px;
+    padding-bottom: 16px;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #30363d;
+  }
 
-    style S padding:30px
-    style A padding:30px
-    style R padding:30px
-    style E padding:30px
-```
+  .category {
+    margin-bottom: 22px;
+  }
+
+  .category h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    color: #e6edf3;
+  }
+
+  .category p {
+    font-size: 12px;
+    line-height: 1.7;
+    color: #8b949e;
+    margin: 0;
+  }
+
+  @media (max-width: 800px) {
+    .skills {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .skills {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<div class="skills">
+
+  <!-- SOFTWARE -->
+  <section>
+    <div class="column-title">01 / SOFTWARE</div>
+
+    <div class="category">
+      <h3>Programming</h3>
+      <p>Python · C# · MATLAB · GDScript · NI LabVIEW</p>
+    </div>
+
+    <div class="category">
+      <h3>Python Ecosystem</h3>
+      <p>PyTorch · TensorFlow · Keras · NumPy · Pandas · SciPy · scikit-learn · OpenCV</p>
+    </div>
+
+    <div class="category">
+      <h3>Development & Integration</h3>
+      <p>Git · Docker · CI/CD</p>
+    </div>
+  </section>
+
+  <!-- ARTIFICIAL INTELLIGENCE -->
+  <section>
+    <div class="column-title">02 / ARTIFICIAL INTELLIGENCE</div>
+
+    <div class="category">
+      <h3>Machine Learning</h3>
+      <p>Supervised & Unsupervised Learning</p>
+    </div>
+
+    <div class="category">
+      <h3>Deep Learning</h3>
+      <p>CNNs · RNNs · LSTMs · Transformers</p>
+    </div>
+
+    <div class="category">
+      <h3>Generative AI</h3>
+      <p>LLMs · Autoencoders · VAEs · GANs · WGANs</p>
+    </div>
+
+    <div class="category">
+      <h3>Computer Vision</h3>
+    </div>
+  </section>
+
+  <!-- ROBOTICS -->
+  <section>
+    <div class="column-title">03 / ROBOTICS & AUTONOMY</div>
+
+    <div class="category">
+      <h3>Robotics</h3>
+      <p>Robot Kinematics & Dynamics · Trajectory Planning · Visual Servo Control · Motion Planning</p>
+    </div>
+
+    <div class="category">
+      <h3>Autonomous Vehicles</h3>
+      <p>Perception · Sensor Fusion · Localization · Decision Making & Planning · Control</p>
+    </div>
+  </section>
+
+  <!-- ENGINEERING -->
+  <section>
+    <div class="column-title">04 / ENGINEERING & SIMULATION</div>
+
+    <div class="category">
+      <h3>Electrical Engineering</h3>
+      <p>Electronics · Power Electronics · PCB Design (Autodesk Fusion) · Control Engineering</p>
+    </div>
+
+    <div class="category">
+      <h3>Modeling & Simulation</h3>
+      <p>Simulink · Simscape · COMSOL Multiphysics · Godot · Blender</p>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
+
