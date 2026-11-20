@@ -6,7 +6,7 @@
       <img src="https://i.giphy.com/7VzgMsB6FLCilwS30v.webp" width="100%">
     </td>
     <td width="65.75%">
-      <img src="https://miro.medium.com/v2/resize:fit:1400/0*-fGpMFbS2NKeWAky.gif" width="100%">
+      <img src="https://i.giphy.com/7VzgMsB6FLCilwS30v.webp" width="100%">
     </td>
   </tr>
 </table>
