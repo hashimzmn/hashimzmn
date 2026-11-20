@@ -14,12 +14,6 @@
 <p align="center">
   <sub><b>A few things I work with...</b></sub>
 </p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="skills_updated.svg">
-  <source media="(prefers-color-scheme: light)" srcset="skills_light.svg">
-  <img alt="Technical Skills" src="skills_light.svg" width="100%">
-</picture>
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="skills_dark.svg">
