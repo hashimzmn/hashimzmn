@@ -12,7 +12,7 @@
 
 
 <p align="center">
-  <kbd>A few things I work with...</kbd>
+  <code>A few things I work with...</code>
 </p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="skills_dark.svg">
