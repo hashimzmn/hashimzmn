@@ -11,9 +11,7 @@
 </table>
 
 
-<p align="center">
-  <sub>A few things I work with...</sub>
-</p>
+<p align="center"><code>// a few things i work with</code></p>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="skills_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="skills_light.svg">
