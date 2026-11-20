@@ -1,29 +1,54 @@
 ```mermaid
-flowchart LR
-    ROOT["Technical Skills"]
+flowchart TB
+    ROOT["TECHNICAL SKILLS"]
 
-    ROOT --> P["Programming"]
-    ROOT --> A["AI & Machine Learning"]
-    ROOT --> R["Robotics"]
-    ROOT --> S["Software Development"]
-    ROOT --> E["Electrical Engineering"]
-    ROOT --> M["Modeling & Simulation"]
+    ROOT --> AI
+    ROOT --> PROG
+    ROOT --> ROB
+    ROOT --> DEV
+    ROOT --> EE
+    ROOT --> SIM
 
-    P --> P1["Python: PyTorch, TF, Keras, NumPy, Pandas, SciPy, sklearn, OpenCV"]
-    P --> P2["C# / MATLAB / GDScript / LabVIEW"]
+    subgraph A[" "]
+        direction TB
+        AI["Artificial Intelligence"]
+        AI --> ML["Supervised / Unsupervised ML"]
+        AI --> NN["CNNs / RNNs / LSTMs / Transformers"]
+        AI --> CV["Computer Vision"]
+        AI --> GEN["LLMs / AEs / VAEs / GANs / WGANs"]
+    end
 
-    A --> A1["Supervised & Unsupervised ML"]
-    A --> A2["CNNs / RNNs / LSTMs / Transformers"]
-    A --> A3["Computer Vision"]
-    A --> A4["LLMs / AEs / VAEs / GANs / WGANs"]
+    subgraph B[" "]
+        direction TB
+        PROG["Programming"]
+        PROG --> PY["Python + ML Libraries"]
+        PROG --> LANG["C# / MATLAB / GDScript"]
+        PROG --> LAB["NI LabVIEW"]
+    end
 
-    R --> R1["Robotics & Autonomous Systems"]
+    subgraph C[" "]
+        direction TB
+        ROB["Robotics & Autonomous Systems"]
+    end
 
-    S --> S1["Git / Docker / CI/CD"]
+    subgraph D[" "]
+        direction TB
+        DEV["Software Development"]
+        DEV --> TOOLS["Git / Docker / CI/CD"]
+    end
 
-    E --> E1["Electronics / Power Electronics"]
-    E --> E2["PCB Design / Control Engineering"]
+    subgraph E[" "]
+        direction TB
+        EE["Electrical Engineering"]
+        EE --> ELEC["Electronics / Power Electronics"]
+        EE --> CTRL["Control Engineering"]
+        EE --> PCB["PCB Design / Autodesk Fusion"]
+    end
 
-    M --> M1["Simulink / Simscape / COMSOL"]
-    M --> M2["Godot / Blender"]
+    subgraph F[" "]
+        direction TB
+        SIM["Modeling & Simulation"]
+        SIM --> ENG["Simulink / Simscape / COMSOL"]
+        SIM --> VIS["Godot / Blender"]
+    end
 ```
