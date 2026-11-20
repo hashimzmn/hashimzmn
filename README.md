@@ -1,26 +1,8 @@
-<td valign="top">
-<p><strong><code>Robotics &amp; Autonomous Systems</code></strong></p>
 
-<p><sub><b>ROBOTICS</b></sub></p>
-<p>
-<code>Kinematics &amp; Dynamics</code> &nbsp;
-<code>Trajectory Planning</code>
+<p align="center">
+  <img
+    src="https://plus.unsplash.com/premium_photo-1795003141687-65b73b177d1d?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0"
+    alt="Banner"
+    width="800"
+  />
 </p>
-<p>
-<code>Motion Planning</code> &nbsp;
-<code>Visual Servo Control</code>
-</p>
-
-<br>
-
-<p><sub><b>AUTONOMOUS VEHICLES</b></sub></p>
-<p>
-<code>Perception</code> &nbsp;
-<code>Sensor Fusion</code> &nbsp;
-<code>Localization</code>
-</p>
-<p>
-<code>Decision Making &amp; Planning</code> &nbsp;
-<code>Control</code>
-</p>
-</td>
