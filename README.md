@@ -1,41 +1,29 @@
 ```mermaid
-flowchart TB
+flowchart LR
+    ROOT["Technical Skills"]
 
-    subgraph CORE["AI & COMPUTING"]
-        direction LR
-        A["Machine Learning<br/>Supervised / Unsupervised"]
-        B["Deep Learning<br/>CNN / RNN / LSTM / Transformers"]
-        C["Generative AI<br/>LLM / AE / VAE / GAN / WGAN"]
-        D["Computer Vision"]
-    end
+    ROOT --> P["Programming"]
+    ROOT --> A["AI & Machine Learning"]
+    ROOT --> R["Robotics"]
+    ROOT --> S["Software Development"]
+    ROOT --> E["Electrical Engineering"]
+    ROOT --> M["Modeling & Simulation"]
 
-    subgraph PROGRAMMING["PROGRAMMING"]
-        direction LR
-        E["Python<br/>PyTorch / TensorFlow / Keras"]
-        F["Scientific Python<br/>NumPy / Pandas / SciPy / sklearn / OpenCV"]
-        G["C# / MATLAB / GDScript / LabVIEW"]
-    end
+    P --> P1["Python: PyTorch, TF, Keras, NumPy, Pandas, SciPy, sklearn, OpenCV"]
+    P --> P2["C# / MATLAB / GDScript / LabVIEW"]
 
-    subgraph ENGINEERING["ENGINEERING"]
-        direction LR
-        H["Robotics & Autonomous Systems"]
-        I["Electronics / Power Electronics"]
-        J["Control Engineering / PCB Design"]
-    end
+    A --> A1["Supervised & Unsupervised ML"]
+    A --> A2["CNNs / RNNs / LSTMs / Transformers"]
+    A --> A3["Computer Vision"]
+    A --> A4["LLMs / AEs / VAEs / GANs / WGANs"]
 
-    subgraph TOOLS["SOFTWARE & SIMULATION"]
-        direction LR
-        K["Git / Docker / CI/CD"]
-        L["Simulink / Simscape / COMSOL"]
-        M["Godot / Blender"]
-    end
+    R --> R1["Robotics & Autonomous Systems"]
 
-    CORE ~~~ PROGRAMMING
-    PROGRAMMING ~~~ ENGINEERING
-    ENGINEERING ~~~ TOOLS
+    S --> S1["Git / Docker / CI/CD"]
 
-    style CORE fill:none,stroke:#888
-    style PROGRAMMING fill:none,stroke:#888
-    style ENGINEERING fill:none,stroke:#888
-    style TOOLS fill:none,stroke:#888
+    E --> E1["Electronics / Power Electronics"]
+    E --> E2["PCB Design / Control Engineering"]
+
+    M --> M1["Simulink / Simscape / COMSOL"]
+    M --> M2["Godot / Blender"]
 ```
